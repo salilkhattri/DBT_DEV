@@ -1,0 +1,9 @@
+version: 2
+  sources:
+    - name: raw_src
+      database: TRAINING_DB
+      schema: TRAINING_SCHEMA
+      tables:
+        - name: CUSTOMERS
+        - name: ORDERS
+        - name: PRODUCTS

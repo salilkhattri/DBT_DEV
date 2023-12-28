@@ -1,9 +1,3 @@
-{{
-    config(
-        materialized='view'
-    )
-}}
-
 --orderid,customerid,productid,ordedate,sellingprice,costprice,
 --customerid,customername,city,
 --productid,productname,category,subcategory

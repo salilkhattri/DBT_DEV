@@ -37,8 +37,11 @@ models:
   my_first_dbt_project:
     # Applies to all files under models/example/
     raw:
-      +materialized: table
+      +materialized: view
+      +schema: TRAINING_SCHEMA
     stage:
       +materialized: view
+      +schema: TRAINING_SCHEMA
     report:
       +materialized: table
+      +schema: TRAINING_SCHEMA
